@@ -85,7 +85,7 @@ public class Naivebayes
 
     // now that we've got the occurrences, let's get the probabilites
     for(int i=0;i<3;i++)
-      uniqueJobsProbability[i] = ((double)uniqueJobsCount[i] / 10.0);  // double arithmetic
+      uniqueJobsProbability[i] = ((double)uniqueJobsCount[i] / 10.0);  // for using float arithmetic write 10f instead of 10.0
 
     // keep in mind the question in hand - that's how we're proceeding
     // let's consider the age >= 30 first
